@@ -2,223 +2,451 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Birds for EVERYONE</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- CSS -->
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS -->
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!-- FONTAWESOME -->
+
+    <title>Pacific Tech Solutions</title>
   </head>
   <body>
-    <nav>
-      <div class="nav__logo">Birds for Everyone<span>.</span></div>
-      <ul class="nav__links">
-        <li class="link"><a href="#">Home</a></li>
-        <li class="link"><a href="#">Our Packages</a></li>
-        <li class="link"><a href="#">Prices</a></li>
-        <li class="link"><a href="#">Contact</a></li>
-      </ul>
-      <button class="btn">Contact Us</button>
-    </nav>
+    <!-- HEADER -->
+    
     <header>
-      <div class="section__container header__container">
-        <div class="header__image">
-          <img src="assets/lapa.PNG" alt="header" />
-          <img src="assets/hawk.PNG" alt="header" />
+      <div class="container flex-row">
+        <div class="header__logo">
+          <img src="/assets/story.PNG" alt="Logo">
         </div>
-        <div class="header__content">
-          <div>
-            <p class="sub__header">Book Now</p>
-            <h1>BETO´S <br>BirdsforEVERYONE</h1>
-            <p class="section__subtitle">
-              Join our Observation sessions<br>
-              Embark on an Extraordinary Birdwatching Adventure in Costa Rica with Beto! 
-                Explore the Rich Avian Diversity of this Tropical Paradise.
-            </p>
-            <div class="action__btns">
-              <button class="btn">Plan a Trip</button>
-              <div class="story">
-                <div class="video__image">
-                  <img src="assets/story.PNG" alt="story" />
-                  <span><i class="ri-play-fill"></i></span>
-                </div>
-                <span>Watch our story</span>
-              </div>
-            </div>
+        <nav>
+          <ul class="header__menu flex-row">
+            <li>
+              <a href="#hero">Home</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#services">Tours</a>
+            </li>
+            <li>
+              <a href="#projects">See our Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Contact US</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="right flex-center">
+          <a href="#contact" class="btn btn-secondary">Book a Tour</a>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
           </div>
         </div>
+
       </div>
+      
     </header>
 
-    <section class="section__container destination__container">
-      <div class="section__header">
-        <div>
-          <h2 class="section__title">Join our Observation sessions.</h2>
-          <p class="section__subtitle">
+    <!-- HEADER -->
+
+    <!-- HERO -->
+
+      <div id="hero" class="container flex-row">
+        <div class="hero__content">
+          <h1 class="title">Join our Observation sessions.</h1>
+          <p class="text">
             Embark on an Extraordinary Birdwatching Adventure in Costa Rica with Beto! 
-                Explore the Rich Avian Diversity of This Tropical Paradise.
+                Explore the Rich Avian Diversity of This Tropical Paradise
+          </p>
+          <a href="" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="hero__img">
+          <img src="assets/destination-1.jpg" alt="">
+        </div>
+      </div>
+
+    <!-- HERO -->
+
+    <!-- ABOUT -->
+
+    <section id="about" class="container flex-center flex-column">
+      <h5 class="section-subheading">Discover Costa Rica's birds with us.</h5>
+      <h2 class="section-heading text-center">Birdwatching Experience in Costa Rica</h2>
+      
+      <div class="features text-center">
+
+        <div class="feature" style="--color:#fe6786">
+          <div class="feature__icon">
+            <i class="fas fa-anchor"></i>
+          </div>
+          <h3 class="feature__title">Discover Costa Rica's flying treasures.</h3>
+          <p class="feature__text">
+            Costa Rica stands as a birdwatching haven, boasting a remarkable array of over 900 bird species. 
+                Nestled between the Caribbean and Pacific coasts, this biodiverse paradise offers a unique blend of ecosystems, 
+                making it a prime destination for avid bird enthusiasts.
           </p>
         </div>
-        <div class="destination__nav">
-          <span><i class="ri-arrow-left-s-line"></i></span>
-          <span><i class="ri-arrow-right-s-line"></i></span>
+
+        <div class="feature" style="--color:#5cd8a5">
+          <div class="feature__icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="feature__title">Diverse Bird Species in Costa Rica</h3>
+          <p class="feature__text">
+            Costa Rica is home to a spectacular variety of bird species, from vibrant toucans and resplendent quetzals to rare hummingbirds and majestic eagles. 
+                Each region, including Monteverde, Osa, Rincon de la Vieja, and Braulio Carrillo, unveils its own avian wonders, creating an unparalleled birdwatching experience.
+          </p>
+        </div>
+
+        <div class="feature" style="--color:#fea95b">
+          <div class="feature__icon">
+            <i class="fa-regular fa-file-lines"></i>
+          </div>
+          <h3 class="feature__title">To all our Visitors:</h3>
+          <p class="feature__text">
+            Plan your extraordinary birdwatching journey with Birds for EVERYONE. 
+                Contact us via WhatsApp at #70473306 or explore more on our Instagram page: Birds for EVERYONE Tours. Your Costa Rican adventure awaits!
+          </p>
+        </div>
+
+      </div>
+
+      <div class="about__details flex-center">
+        <div class="about_details-content">
+          <h1>Additional Tips for Bird Enthusiasts:</h1>
+          <p>Before you embark on your birdwatching expedition, don't forget to pack binoculars, a field guide, and a keen sense of wonder. 
+            Costa Rica's birds are waiting to be discovered—let Beto be your guide to unlock their secrets.</p>
+          <a href="#" class="btn btn-primary">Get Started.</a>
+        </div>
+        <div class="about__details-img">
+          <img src="assets/img/about.png" alt="About">
         </div>
       </div>
-      <div class="destination__grid">
-        <div class="destination__card">
-          <img src="assets/destination-1.jpg" alt="destination" />
-          <div class="destination__details">
-            <p class="destination__title">Caño Negro Wildlife Refugee</p>
-            <p class="destination__subtitle">Los Chiles, Alajuela</p>
-          </div>
-        </div>
-        <div class="destination__card">
-          <img src="assets/destination-2.jpg" alt="destination" />
-          <div class="destination__details">
-            <p class="destination__title">Carara National Park</p>
-            <p class="destination__subtitle">Tarcoles</p>
-          </div>
-        </div>
-        <div class="destination__card">
-          <img src="assets/destination-3.png" alt="destination" />
-          <div class="destination__details">
-            <p class="destination__title">Arenal Volcano National Park</p>
-            <p class="destination__subtitle">San Carlos</p>
-          </div>
-        </div>
-        <div class="destination__card">
-          <img src="assets/destination-4.jpg" alt="destination" />
-          <div class="destination__details">
-            <p class="destination__title">Sarapiqui Biological Station</p>
-            <p class="destination__subtitle">Heredia</p>
-          </div>
-        </div>
-        
-      </div>
+
     </section>
 
-    <section class="trip">
-      <div class="section__container trip__container">
-        <h2 class="section__title">Best trip package</h2>
-        <p class="section__subtitle">
-          Explore your suitable and dream species around the country. Here you can
-          find your right destination.
-        </p>
-        <div class="trip__grid">
-          <div class="trip__card">
-            <img src="assets/lapatrip.png" alt="trip" />
-            <div class="trip__details">
-              <p>Red Macaw</p>
-              <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
-              <div class="booking__price">
-                <div class="price"><span>From</span> $100</div>
-                <button class="book__now">Book Now</button>
-              </div>
-            </div>
-          </div>
-          <div class="trip__card">
-            <img src="assets/peregrinotrip.png" alt="trip" />
-            <div class="trip__details">
-              <p>Peregrino</p>
-              <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
-              <div class="booking__price">
-                <div class="price"><span>From</span> $150</div>
-                <button class="book__now">Book Now</button>
-              </div>
-            </div>
-          </div>
-          <div class="trip__card">
-            <img src="assets/oropendulatrip.png" alt="trip" />
-            <div class="trip__details">
-              <p>Oropendulas</p>
-              <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
-              <div class="booking__price">
-                <div class="price"><span>From</span> $100</div>
-                <button class="book__now">Book Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="view__all">
-          <button class="btn">View All</button>
-        </div>
-      </div>
-    </section>
+    <!-- ABOUT -->
+ 
 
-    <section class="gallary">
-      <div class="section__container gallary__container">
-        <div class="image__gallary">
-          <div class="gallary__col">
-            <img src="assets/potoo.PNG" alt="gallary" />
-          </div>
-          <div class="gallary__col">
-            <img src="assets/Mangrove.PNG" alt="gallary" />
-            <img src="assets/oilbird.PNG" alt="gallary" />
-          </div>
-        </div>
-        <div class="gallary__content">
-          <div>
-            <h2 class="section__title">
-              Our trip gallery that will inspire you
-            </h2>
-            <p class="section__subtitle">
-              Explore your suitable and dream places around the country. Here you
-              can find your right tour.
+    <!-- SERVICES -->
+
+    <section id="services"
+      style="
+      background: url(assets/img/services-bg.png);      
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: 100%;
+
+      "
+    
+    >
+      <div class="container">
+        <h5 class="section-subheading">¿Our Services?</h5>
+        <h2 class="section-heading right">
+          Experience the allure of Costa Rica's birds in a creative and attractive way. 
+          Let our passion for birdwatching and the expertise of Beto transform your journey into a mesmerizing adventure
+        </h2>
+        <div class="services">
+          <div class="service">
+            <div class="service__icon">
+              <img src="assets/img/squares.png" alt="">
+            </div>
+            <h3 class="services__title">Bird Watching Tours</h3>
+            <p class="service_text">
+              Consult for our packages and tours across the entire country.
             </p>
-            <button class="btn">
-              <a href="https://www.instagram.com/birds_for_everyone.506_tours">View All</a>
-            </button>
+            <div class="arrow-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
           </div>
+          <div class="service">
+            <div class="service__icon">
+              <img src="assets/img/video-camera.png" alt="">
+            </div>
+            <h3 class="services__title">Shooting & Recording</h3>
+            <p class="service_text">
+              We offer a professional service to capture the beauty and unique moments of your experience.
+            </p>
+            <div class="arrow-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="service">
+            <div class="service__icon">
+              <img src="assets/img/headphones.png" alt="">
+            </div>
+            <h3 class="services__title">Support & Attention</h3>
+            <p class="service_text">
+              Allow us to guide and support you throughout your entire experience.
+            </p>
+            <div class="arrow-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <section class="subscribe">
-      <div class="section__container subscribe__container">
-        <div class="subscribe__content">
-          <h2 class="section__title">Subscribe to get special news</h2>
-          <p class="section__subtitle">
-            Explore your suitable and dream places Costa Rica. Here you
-            can find your right Bird watching tour.
-          </p>
+    <!-- SERVICES -->
+
+    <!-- PROJECTS -->
+
+    <section id="projects"
+      style="
+        background: url(assets/img/projects-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        background-attachment: fixed;
+      "
+    
+    >
+      <div class="container">
+        <h5 class="section-subheading">Our top tours.</h5>
+        <h2 class="section-heading">
+          Unravel the beauty of all birds.
+        </h2>
+        <div class="projects">
+
+          <div class="project">
+            <div class="project__img">
+              <img src="assets/destination-1.jpg" alt="">
+            </div>
+            <div class="project__content">
+              <h3 class="project__content">Caño Negro Wildlife Refugee</h3>
+              <h3 class="project__title">Lorem ipsum dolor sit amet</h3>
+              <p class="project__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam esse, tempora, laboriosam libero soluta illo numquam sunt, dicta odio fuga in voluptatibus explicabo consequatur voluptate ab. Quis, eum saepe?
+              </p>
+              <a href="#" class="btn btn-secondary">Ver detalles</a>
+            </div>
+          </div>
+
+
+          <div class="project">
+            <div class="project__img">
+              <img src="assets/destination-2.jpg" alt="">
+            </div>
+            <div class="project__content">
+              <h3 class="project__content">Carara National Park</h3>
+              <h3 class="project__title">Lorem ipsum dolor sit amet</h3>
+              <p class="project__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam esse, tempora, laboriosam libero soluta illo numquam sunt, dicta odio fuga in voluptatibus explicabo consequatur voluptate ab. Quis, eum saepe?
+              </p>
+              <a href="#" class="btn btn-secondary">See more.</a>
+            </div>
+          </div>
+
+
+          <div class="project">
+            <div class="project__img">
+              <img src="assets/destination-3.png" alt="">
+            </div>
+            <div class="project__content">
+              <h3 class="project__content">Arenal Volcano National Park</h3>
+              <h3 class="project__title">Lorem ipsum dolor sit amet</h3>
+              <p class="project__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam esse, tempora, laboriosam libero soluta illo numquam sunt, dicta odio fuga in voluptatibus explicabo consequatur voluptate ab. Quis, eum saepe?
+              </p>
+              <a href="#" class="btn btn-secondary">See more.</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project__img">
+              <img src="assets/destination-4.jpg" alt="">
+            </div>
+            <div class="project__content">
+              <h3 class="project__content">Sarapiqui Biological Station</h3>
+              <h3 class="project__title">Lorem ipsum dolor sit amet</h3>
+              <p class="project__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam esse, tempora, laboriosam libero soluta illo numquam sunt, dicta odio fuga in voluptatibus explicabo consequatur voluptate ab. Quis, eum saepe?
+              </p>
+              <a href="#" class="btn btn-secondary">See more.</a>
+            </div>
+          </div>
+
+
         </div>
-        <div class="subscribe__form">
-          <form>
-            <input type="email" placeholder="Your email here" />
-            <button class="btn" type="submit">Send</button>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <!-- CONTACT -->
+
+    <section id="contact"
+
+      style="
+        background: url(assets/img/contact-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+      "
+    
+    >
+      <div class="container">
+        <h5 class="section-subheading text-center">Contact US</h5>
+        <h2 class="section-heading text-center left right">Birds for Everyone 506 takes you on tours all over Costa Rica.</h2>
+        <div class="contact">
+          <form class="contact__form">
+            <h1>Leave us a Message</h1>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required />
+            <textarea rows="7" required>Your message</textarea>
+            <button class="btn btn-primary">Send</button>
           </form>
+
+          <div class="contact__details">
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            </p>
+            <div class="details">
+
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Phone #</h3>
+                  <p>+506-7047-3306</p>
+                </div>
+              </div>
+
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="detail__content">
+                  <a href="soporte@pts.com"><h3>Email</h3></a>
+                   
+                </div>
+              </div>
+
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Address</h3>
+                  <p>Monteverde, <br> Puntarenas, Costa Rica</p>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+
         </div>
+
+
       </div>
     </section>
 
-    <footer class="footer">
-      <div class="section__container footer__container">
-        <div class="footer__col">
-          <h3>Birds for EVERYONE<span>.</span></h3>
-          <p>
-            Explore your suitable and dream bird watching places. Here you
-            can find your right destination.
-          </p>
+
+    <!-- CONTACT -->
+
+    <!-- FOOTER -->
+
+
+    <footer>
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__details">
+            <div class="footer__logo">
+              <img src="assets/story.PNG" alt="logo">
+            </div>
+            <p class="footer__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit molestias odit ipsam fuga, dolorem consequatur minus eos odio fugiat aut totam quis, vitae repellat. Blanditiis officia fugiat beatae asperiores eligendi?
+            </p>
+            <div class="footer__newletter">
+              <form action="#" class="footer__newsletter-form">
+                <input type="email" placeholder="Send email" required>
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+              </form>
+            </div>
+
+          </div>
+
+          <div class="footer__menu">
+            <h3 class="footer__menu-title">Access</h3>
+            <ul class="flooter__menu-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">our Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__menu">
+            <h3 class="footer__menu-title">Services</h3>
+            <ul class="flooter__menu-list">
+              <li><a href="#">Bird Watching Tours</a></li>
+              <li><a href="#">Shooting & Recording</a></li>
+              <li><a href="#">Support & Attention</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__menu">
+            <h3 class="footer__menu-title">Social Media</h3>
+            <ul class="flooter__menu-list">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+
+
         </div>
-        <div class="footer__col">
-          <h4>Support</h4>
-          <p>Contact Us</p>
+
+        <div class="footer__bottom">
+          <div class="footer__bottom-icons">
+            <p>Follow Us</p>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="linkedin">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <p>&copy; 2024 B4E. All Rights Reserved</p>
         </div>
-        <div class="footer__col">
-          <h4>Address</h4>
-          <p>
-            <span>Address:</span> Monteverde, Puntarenas,
-            Costa Rica
-          </p>
-          <p><span>Email:</span> betoguidomendez@gmail.com</p>
-          <p><span>Phone:</span> +506-7047-3306</p>
-        </div>
-      </div>
-      <div class="footer__bar">
-        Copyright © 2024 LabGeek010. All rights reserved.
+
       </div>
     </footer>
+
+    <!-- FOOTER -->
+
+    <!-- FONTAWESOME -->
+    <script src="assets/js/fontawesome.min.js"></script>
+    <!-- FONTAWESOME -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
+
+    <!-- SCRIPTS -->
+    <script src="assets/js/script.js"></script>
+    <!-- SCRIPTS -->
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
